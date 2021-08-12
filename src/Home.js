@@ -31,7 +31,7 @@ export default function Home() {
       <Router>
         <div>
           <h1>
-            Welcome<span>{User}</span>
+            Welcome <span>{User}</span>
           </h1>
           <AuthButton />
 

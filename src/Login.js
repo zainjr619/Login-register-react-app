@@ -12,7 +12,7 @@ import { useDispatch } from "react-redux";
 const validate = (values) => {
   const errors = {};
   if (!values.email) {
-    errors.email = "Required";
+    errors.email = "Requ ired";
   }
   if (!values.password) {
     errors.password = "Required";
